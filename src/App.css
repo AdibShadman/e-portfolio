@@ -1,3 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+
+body {
+  font-family: "Lato" sans-serif;
+}
+
+:root {
+  --primary_black: #868580;
+  --secondary_black: #4a4d50;
+  --tertiary_black: #110f0f;
+}
+
 .App {
   text-align: center;
 }
