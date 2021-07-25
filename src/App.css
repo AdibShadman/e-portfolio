@@ -8,6 +8,8 @@ body {
   --primary_black: #868580;
   --secondary_black: #4a4d50;
   --tertiary_black: #110f0f;
+
+  --absolute_white: #ffffff;
 }
 
 .App {
@@ -46,5 +48,11 @@ body {
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 768px) {
+  .typed-text {
+    font-size: 0.5rem;
   }
 }

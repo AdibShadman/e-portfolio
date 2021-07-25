@@ -1,0 +1,67 @@
+@import url("../App.css");
+
+.header-wraper {
+  position: relative;
+  background: url("../assets/pexels-designecologist-1999463.jpg")
+    rgba(0, 0, 0, 0.6);
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  opacity: 100;
+}
+
+.main-info {
+  background-color: var(--tertiary_black);
+  color: var(--absolute_white);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50em;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 10px;
+  vertical-align: middle;
+}
+.typed-text {
+  font-size: 2rem;
+  background-color: var(--secondary_black);
+  color: var(--absolute_white);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25em;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 10px;
+  vertical-align: middle;
+}
+.emptySpace {
+  height: 10vh;
+}
+.emptySpace2 {
+  height: 2vh;
+}
+
+.tsparticles-canvas-el {
+  position: absolute;
+  height: 100vh;
+  width: 100vh;
+  z-index: 1;
+}
+
+@media (max-width: 768px) {
+  .typed-text {
+    font-size: 1rem;
+  }
+  .main-info {
+    font-size: 0.47rem;
+  }
+}

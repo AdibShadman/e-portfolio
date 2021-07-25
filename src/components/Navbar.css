@@ -2,6 +2,7 @@
 
 .navbar {
   min-height: 100px;
+  z-index: 2;
 }
 .navbar-brand {
   padding-left: 50px;
