@@ -50,9 +50,3 @@ body {
     transform: rotate(360deg);
   }
 }
-
-@media (max-width: 768px) {
-  .typed-text {
-    font-size: 0.5rem;
-  }
-}

@@ -57,6 +57,8 @@
   z-index: 1;
 }
 
+/*---------------------For Mobile------------------*/
+
 @media (max-width: 768px) {
   .typed-text {
     font-size: 1rem;
