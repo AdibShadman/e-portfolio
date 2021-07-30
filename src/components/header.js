@@ -5,7 +5,7 @@ import Particles from "react-particles-js";
 
 function header() {
   return (
-    <div className = "header-wraper">
+    <div id = "header" className = "header-wraper">
         <div className ="emptySpace"></div>
         <div className="main-info">
             <h1>My goal is to build responsive, mobile fast, cross browser compatible web applications that clearly communicates with visitors</h1>

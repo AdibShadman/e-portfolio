@@ -19,7 +19,7 @@ import pic2 from '../assets/Resume2.png';
      }
   render() {
     return (
-      <div >
+      <div id ="resume">
           <div className= "resume-wrapper">
         <h1 className = "resume-heading">Download my Resume </h1>
         <div className = "emptySpace_downloadResume"></div>

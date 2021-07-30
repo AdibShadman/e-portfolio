@@ -5,7 +5,7 @@ import author from "../assets/Adib_graduation.jpg"
 function aboutMe() {
   return (
     
-    <div className = "container ">
+    <div id = "aboutMe" className = "container ">
       <div className="emptySpace_aboutMe"></div>
       <div className="row">
        <div className="col">

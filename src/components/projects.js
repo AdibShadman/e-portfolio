@@ -14,7 +14,7 @@ function projects() {
     const videoSrc2 =TicketHub;
     const poster2 = "https://images.pexels.com/photos/267389/pexels-photo-267389.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260";
   return (
-    <div className = "project-container">
+    <div id = "projects" className = "project-container">
         <h1 className="projects_Name"> Projects </h1>
         <div className="row">
 

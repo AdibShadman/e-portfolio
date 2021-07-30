@@ -4,7 +4,7 @@ import "./certifications.css";
 function certifications() {
   return (
     
-    <div className = "certification-header-wrapper">
+    <div id = "certifications" className = "certification-header-wrapper">
         <div className= "emptySpace_certification"> </div>
         <div className="certifications-list-heading"> Certifications</div>
       
