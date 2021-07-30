@@ -1,0 +1,25 @@
+@import url("../App.css");
+
+.paragraph {
+  font-size: 15px;
+}
+
+.emptySpace_aboutMe {
+  height: 5vh;
+}
+.profile_img {
+  width: "700";
+  height: "900";
+  border-radius: "2%";
+}
+.about_heading {
+  color: var(--secondary_black);
+}
+
+@media (max-width: 768px) {
+  .profile_img {
+    height: 500px;
+    width: 360px;
+    margin-bottom: 20px;
+  }
+}

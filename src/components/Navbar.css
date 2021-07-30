@@ -1,0 +1,29 @@
+@import url("../App.css");
+
+.navbar {
+  min-height: 100px;
+  z-index: 2;
+}
+.navbar-brand {
+  padding-left: 50px;
+}
+.nav-link {
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  display: inline;
+  padding-right: 100px;
+}
+
+nav ul {
+  display: inline;
+  padding-right: 50px;
+}
+
+.navbar-nav > li > a {
+  color: var(--primary_black) !important;
+}
+
+.navbar-nav > li > a:hover {
+  color: var(--tertiary_black) !important;
+}

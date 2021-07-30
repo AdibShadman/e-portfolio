@@ -1,0 +1,30 @@
+@import url("../App.css");
+
+.resume-heading {
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5vh;
+  display: flex;
+  padding-top: 15px;
+}
+.emptySpace_downloadResume {
+  height: 5vh;
+}
+
+.resume-Button {
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1vh;
+  display: flex;
+  padding-bottom: 20px;
+}
+.resume-wrapper {
+  margin-top: 5vh;
+  background-color: var(--tertiary_black);
+  color: var(--primary_black);
+}
+.resume_EmptySpace {
+  height: 5vh;
+}

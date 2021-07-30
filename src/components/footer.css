@@ -1,0 +1,18 @@
+@import url("../App.css");
+
+.footer-wrapper {
+  background-color: var(--primary_black);
+  color: var(--tertiary_black);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+p {
+  margin-left: 40px;
+  font-size: 30px;
+  font-weight: 500;
+}
+.footer-list {
+  list-style-type: none;
+  font-size: 20px;
+}

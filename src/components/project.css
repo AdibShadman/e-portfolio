@@ -1,0 +1,25 @@
+@import url("../App.css");
+
+.project-container {
+  margin-top: 5vh;
+  margin-left: 10vh;
+}
+.projects_Name {
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+@media (max-width: 768px) {
+  .project-container {
+    width: 10rem;
+    font-size: 15px;
+    padding: 5px;
+    margin-left: 1vh;
+  }
+  .VideoPlayer {
+    height: 500px;
+    width: 360px;
+  }
+}
