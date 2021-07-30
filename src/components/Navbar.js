@@ -17,13 +17,13 @@ function Navbar() {
         <a className="nav-link" href="#">Home</a>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="#">Skills</a>
+        <a className="nav-link" href="#">Certifications</a>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="#">Work Experience</a>
+        <a className="nav-link" href="#">Projects</a>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="#">Blog</a>
+        <a className="nav-link" href="#">Resume</a>
       </li>
       <li className="nav-item">
         <a className="nav-link" href="#">Contact</a>

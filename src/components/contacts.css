@@ -1,0 +1,42 @@
+@import url("../App.css");
+
+.contacts {
+  background: var(--secondary-black);
+  padding: 4rem 0;
+}
+
+.contacts h1 {
+  color: var(--primary-black);
+  font-size: 50px;
+}
+.contacts p {
+  color: var(--tertiary-black);
+  font-size: 20px;
+}
+
+.contacts input {
+  width: 100%;
+  box-sizing: border-box;
+  background: none;
+  border: 0;
+  border-bottom: 0.125rem solid black;
+  border-radius: 0;
+}
+.contacts textarea {
+  height: 1200rem;
+}
+
+.contact-submit {
+  color: black;
+  width: 100%;
+  padding: 5px;
+  margin: 20px 0px;
+}
+
+.contact-submit:hover {
+  color: white;
+  background-color: black;
+}
+
+@media (max-width: 768px) {
+}

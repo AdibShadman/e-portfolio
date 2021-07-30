@@ -1,5 +1,9 @@
 @import url("../App.css");
 
+.paragraph {
+  font-size: 15px;
+}
+
 .emptySpace_aboutMe {
   height: 5vh;
 }
